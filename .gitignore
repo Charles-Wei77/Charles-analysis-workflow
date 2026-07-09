@@ -15,6 +15,7 @@ env/
 
 local-analysis-workflow/runs/
 local-research-workflow/runs/
+douyin_exports/
 
 local-research-workflow/config/project_paths.local.json
 local-research-workflow/config/project_paths.json
