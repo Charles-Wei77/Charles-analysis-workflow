@@ -1,0 +1,38 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+  line-height: 1.65;
+  color: #1f2933;
+  max-width: 920px;
+  margin: 40px auto;
+  padding: 0 32px;
+}
+h1, h2, h3 {
+  color: #102a43;
+  line-height: 1.25;
+}
+h1 {
+  border-bottom: 2px solid #bcccdc;
+  padding-bottom: 12px;
+}
+blockquote {
+  border-left: 4px solid #486581;
+  margin-left: 0;
+  padding-left: 16px;
+  color: #52606d;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  border: 1px solid #d9e2ec;
+  padding: 8px 10px;
+  vertical-align: top;
+}
+th {
+  background: #f0f4f8;
+}
+code {
+  background: #f0f4f8;
+  padding: 1px 4px;
+}

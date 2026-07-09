@@ -1,0 +1,17 @@
+{
+  "hub": "OPTIONAL: /path/to/Agent-Skills-Hub",
+  "projects": {
+    "finrobot": "OPTIONAL: /path/to/FinRobot",
+    "langalpha": "OPTIONAL: /path/to/LangAlpha",
+    "gpt_researcher": "OPTIONAL: /path/to/gpt-researcher",
+    "open_deep_research": "OPTIONAL: /path/to/open_deep_research",
+    "browser_use": "OPTIONAL: /path/to/browser-use"
+  },
+  "native_skills": {
+    "initiating_coverage": "OPTIONAL: /path/to/initiating-coverage",
+    "sector_overview": "OPTIONAL: /path/to/sector-overview",
+    "docx": "OPTIONAL: /path/to/docx-skill",
+    "pptx": "OPTIONAL: /path/to/pptx-skill",
+    "pdf": "OPTIONAL: /path/to/pdf-skill"
+  }
+}

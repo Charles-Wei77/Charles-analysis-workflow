@@ -1,0 +1,127 @@
+{
+  "company": "埃斯顿",
+  "stock_code": "002747.SZ",
+  "market": "A-share",
+  "industry": "工业机器人与运动控制",
+  "topic": "国产工业机器人份额提升、智能制造系统修复、竞品格局与替代风险",
+  "language": "zh-CN",
+  "template": "securities",
+  "sources": [
+    {
+      "title": "埃斯顿 2025 年年度报告",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-03-31/1225059898.PDF",
+      "publisher": "巨潮资讯",
+      "date": "2026-03-31",
+      "evidence_level": "A",
+      "claim": "历史财务、业务结构、管理层讨论和风险提示以年报为主来源。",
+      "note": "正式使用时由 agent 抓取并提取财务字段。"
+    },
+    {
+      "title": "埃斯顿 2026 年第一季度报告",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-04-30/1225261270.PDF",
+      "publisher": "巨潮资讯",
+      "date": "2026-04-30",
+      "evidence_level": "A",
+      "claim": "最近一期经营趋势、现金流和资产负债表以一季报更新。",
+      "note": "正式使用时由 agent 提取 run-rate 与财务修复线索。"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim": "公司属于工业机器人与运动控制国产替代链条，分析时应同时看本体、运动控制、系统集成和下游资本开支。",
+      "evidence_level": "B",
+      "source_ids": ["S1", "S2"],
+      "status": "待进一步量化",
+      "analyst_note": "需要补充同业份额、订单、毛利率和下游行业资本开支。"
+    }
+  ],
+  "competitors": [
+    {
+      "name": "汇川技术",
+      "ticker": "300124.SZ",
+      "type": "直接/强相关竞品",
+      "product_overlap": "运动控制、工业自动化、机器人相关业务",
+      "customer_overlap": "制造业自动化客户",
+      "advantage": "平台化能力、客户覆盖和盈利质量较强",
+      "risk_to_target": "若客户预算集中向平台型龙头倾斜，目标公司份额和估值弹性受压",
+      "evidence_level": "B"
+    },
+    {
+      "name": "埃夫特",
+      "ticker": "688165.SH",
+      "type": "直接竞品",
+      "product_overlap": "工业机器人本体及系统集成",
+      "customer_overlap": "汽车、电子、新能源等工业场景",
+      "advantage": "机器人本体和系统场景覆盖",
+      "risk_to_target": "同质化竞争和价格压力",
+      "evidence_level": "B"
+    }
+  ],
+  "substitution_risks": [
+    {
+      "risk": "协作机器人/具身智能新架构对传统工业机器人部分场景形成替代",
+      "source": "技术路线变化",
+      "timeframe": "3-5年",
+      "intensity": "局部替代",
+      "impact": "部分新增需求可能转向更柔性的新产品形态",
+      "defense": "产品迭代、场景深耕、控制系统和系统集成能力",
+      "evidence_level": "C"
+    },
+    {
+      "risk": "下游客户资本开支周期放缓",
+      "source": "宏观和制造业投资周期",
+      "timeframe": "1-3年",
+      "intensity": "边际侵蚀",
+      "impact": "订单、收入确认和利润率修复低于预期",
+      "defense": "拓展高景气细分行业和海外客户",
+      "evidence_level": "B"
+    }
+  ],
+  "factor_scores": {
+    "product_hardness": {"score": 3.5, "evidence_level": "B", "note": "工业自动化核心部件和机器人本体具备硬件属性，但需量化价值量和毛利率。"},
+    "bottleneck": {"score": 2.5, "evidence_level": "C", "note": "机器人本体并非典型供给瓶颈，需要靠国产替代和客户认证解释。"},
+    "recognizability": {"score": 3.5, "evidence_level": "B", "note": "A股国产机器人代表之一，但需和人形机器人、工业母机等主题区分。"},
+    "leader_ladder": {"score": 3, "evidence_level": "C", "note": "需结合当日涨停梯队和资金热度判断。"},
+    "sentiment_funds": {"score": "", "evidence_level": "C", "note": "由 agent 用 investment-sentiment、Wudao MCP 或用户自配 A 股工具补充。"},
+    "price_volume_position": {"score": "", "evidence_level": "C", "note": "由 kline/stock_screener/capital_flow 计算。"},
+    "catalyst": {"score": 3, "evidence_level": "B", "note": "关注业绩修复、订单、政策和机器人主题催化。"},
+    "disproof_difficulty": {"score": 3, "evidence_level": "C", "note": "订单和收入兑现较易验证，题材叙事韧性中等。"},
+    "chip_risk": {"score": "", "evidence_level": "C", "note": "需补充解禁、减持、质押、股东户数。"}
+  },
+  "catalysts": [
+    {
+      "date": "待定",
+      "event": "半年度业绩预告/中报",
+      "type": "业绩",
+      "expected_impact": "验证利润修复和订单兑现",
+      "source_ids": "S1,S2",
+      "status": "待跟踪"
+    }
+  ],
+  "tracking_indicators": [
+    {
+      "indicator": "机器人及智能制造系统收入增速",
+      "why_it_matters": "验证主业景气和国产替代兑现",
+      "source": "年报/季报/用户自配数据源",
+      "frequency": "季度",
+      "trigger": "连续两个季度低于模型假设"
+    },
+    {
+      "indicator": "毛利率与费用率",
+      "why_it_matters": "验证盈利修复质量",
+      "source": "财报",
+      "frequency": "季度",
+      "trigger": "毛利率下行或费用率失控"
+    }
+  ],
+  "financial_model": {
+    "currency": "RMB",
+    "units": "RMB mm",
+    "data_policy": "Primary: official filings and exchange disclosures; structured fields come from user-configured sources such as Wudao MCP or private licensed providers. No real keys in shared files.",
+    "historical": [],
+    "segments": [],
+    "market": {},
+    "comps": []
+  }
+}

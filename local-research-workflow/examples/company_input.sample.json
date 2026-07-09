@@ -1,0 +1,133 @@
+{
+  "company": "埃斯顿",
+  "stock_code": "002747.SZ",
+  "industry": "工业机器人与运动控制",
+  "topic": "国产工业机器人份额提升、智能制造系统修复与估值重估",
+  "template": "securities",
+  "language": "zh-CN",
+  "sources": [
+    {
+      "title": "埃斯顿 2025 年年度报告",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-03-31/1225059898.PDF",
+      "publisher": "巨潮资讯",
+      "date": "2026-03-31",
+      "note": "主来源：历史财务、业务结构、管理层讨论、风险提示。",
+      "evidence": "用于替换模型中的历史收入、毛利率、费用、资产负债表、现金流和分业务披露。"
+    },
+    {
+      "title": "埃斯顿 2026 年第一季度报告",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-04-30/1225261270.PDF",
+      "publisher": "巨潮资讯",
+      "date": "2026-04-30",
+      "note": "更新最近一期经营状态、现金流和资产负债表。",
+      "evidence": "用于更新当年 run-rate、订单和利润修复判断。"
+    }
+  ],
+  "financial_model": {
+    "currency": "RMB",
+    "units": "RMB mm",
+    "data_policy": "Primary: official filings and exchange disclosures; structured fields come from user-configured sources such as Wudao MCP or private licensed providers. Keys must be read from environment variables only.",
+    "historical": [
+      {
+        "year": 2023,
+        "revenue": 4200.0,
+        "gross_margin": 0.295,
+        "ebit_margin": 0.035,
+        "net_income": 130.0,
+        "da": 130.0,
+        "capex": 170.0,
+        "nwc": 620.0,
+        "cash": 900.0,
+        "debt": 1450.0,
+        "shares": 870.0,
+        "total_assets": 9600.0,
+        "equity": 3000.0,
+        "source": "示例占位，正式使用时替换为年报/审计报告/用户自配数据源字段"
+      },
+      {
+        "year": 2024,
+        "revenue": 4000.0,
+        "gross_margin": 0.29,
+        "ebit_margin": -0.14,
+        "net_income": -810.0,
+        "da": 150.0,
+        "capex": 210.0,
+        "nwc": 700.0,
+        "cash": 780.0,
+        "debt": 1500.0,
+        "shares": 870.0,
+        "total_assets": 10100.0,
+        "equity": 2300.0,
+        "source": "示例占位，正式使用时替换为年报/审计报告/用户自配数据源字段"
+      },
+      {
+        "year": 2025,
+        "revenue": 4888.0,
+        "gross_margin": 0.2945,
+        "ebit_margin": 0.035,
+        "net_income": 45.0,
+        "da": 160.0,
+        "capex": 230.0,
+        "nwc": 650.0,
+        "cash": 950.0,
+        "debt": 1450.0,
+        "shares": 871.0,
+        "total_assets": 9415.0,
+        "equity": 2450.0,
+        "source": "示例占位，正式使用时替换为年报/审计报告/用户自配数据源字段"
+      }
+    ],
+    "segments": [
+      {
+        "name": "工业机器人及智能制造系统",
+        "revenue": 4008.0,
+        "gross_margin": 0.292
+      },
+      {
+        "name": "自动化核心部件及运动控制系统",
+        "revenue": 880.0,
+        "gross_margin": 0.304
+      }
+    ],
+    "market": {
+      "price": 10.0,
+      "shares": 871.0,
+      "cash": 950.0,
+      "debt": 1450.0,
+      "risk_free_rate": 0.022,
+      "beta": 1.2,
+      "equity_risk_premium": 0.055,
+      "pretax_cost_of_debt": 0.045,
+      "tax_rate": 0.25
+    },
+    "comps": [
+      {
+        "company": "汇川技术",
+        "ticker": "300124.SZ",
+        "market_cap": 0,
+        "ev": 0,
+        "revenue": 0,
+        "net_income": 0,
+        "source": "待接入用户自配结构化数据源"
+      },
+      {
+        "company": "埃夫特",
+        "ticker": "688165.SH",
+        "market_cap": 0,
+        "ev": 0,
+        "revenue": 0,
+        "net_income": 0,
+        "source": "待接入用户自配结构化数据源"
+      },
+      {
+        "company": "拓斯达",
+        "ticker": "300607.SZ",
+        "market_cap": 0,
+        "ev": 0,
+        "revenue": 0,
+        "net_income": 0,
+        "source": "待接入用户自配结构化数据源"
+      }
+    ]
+  }
+}
